@@ -3,14 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title></title>
+		<title>密码登录</title>
 	</head>
 	<body>
 		<div>
-			<span>用户名:</span>
+			<p>
+		       <span>用户名:</span>
 			<input type="text" placeholder="请输入用户名..." id="username">
+			</p>
+			<p>
 			<span>密码:</span>
 			<input type="password" placeholder="请输入用户名..." id="passwd">
+			</p>
 			<input type="button" value="登录" onclick="login()">
 			<input type="button" id="btnClear" value="清除" onclick="doClear()" />
 		</div>
