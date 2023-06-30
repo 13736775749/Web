@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>js发布评论消息列表代码 </title>
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+ <style type="text/css">
+       html,body {
+    color: #333;
+    margin: 0;
+    height: 100%;
+    font-family: "Myriad Set Pro","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a, label, button, input, select {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background: #fff;
+    color: #666;
+}
+
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #08acee;
+}
+
+button {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #666;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+}
+
+body {
+    background: #fff7ef;
+}
+
+.aui-body-box {
+    width: 600px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+#messageContent {
+    border: 1px solid #453321;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background: #93775d;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    overflow: scroll;
+}
+
+#messageContent p img {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ff9b67;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: left;
+}
+
+.aui-right {
+    text-align: right;
+}
+
+#avtar {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ff9b67;
+    border-radius: 5px;
+}
+
+#text {
+    width: 68%;
+    background: #ffddc1;
+    border: 1px solid #453321;
+    margin: 0px;
+    padding: 10px 15px;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    outline: none;
+    height: 35px;
+    line-height: 35px;
+    color: #93775d;
+    float: left;
+    border-radius: 2px;
+}
+
+.aui-user-img img {
+    line-height: 30px;
+    display: block;
+    float: left;
+}
+
+.aui-user-img span {
+    line-height: 35px;
+    display: block;
+    text-align: center;
+    color: #93775d;
+    font-size: 16px;
+}
+
+#btn1 {
+    background: #f7671d;
+    border: 1px solid #f06923;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 0 30px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.aui-user-img {
+    float: left;
+    width: 90px;
+    cursor: pointer;
+}
+
+#messageContent p {
+    border-bottom: 1px dashed #d09c6b;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#messageContent p span {
+    float: left;
+    display: inline;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff3e7;
+}
+
+#messageContent .aui-right img {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+#messageContent .aui-right span {
+    float: right;
+}
+   </style>
+</head>
+<body>
+
+<div class="aui-body-box">
+	<div id="messageContent"></div>
+	<div class="aui-user-img">
+		<img src="images/mz.png" id="avtar" alt="">
+		<span id="nickname">萌主</span>
+	</div>
+	<input type="text" id="text" value="" placeholder="">
+	<input type="button" id="btn1" value="发送" placeholder="">
+</div>
+<script type="text/javascript">
+
+	
+</script>
+</body>
+</html>
