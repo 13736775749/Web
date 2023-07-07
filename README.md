@@ -1,2 +1,2 @@
-#js cdn
-自建前端JS/CSS CDN
+#html
+自建前端JS/CSS/html CDN
